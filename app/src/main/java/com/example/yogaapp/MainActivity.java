@@ -115,6 +115,11 @@ public class MainActivity extends AppCompatActivity {
 
             return true;
         }
+        if (id == R.id.id_about_us) {
+            Intent intent = new Intent(this, AboutUsActivity.class);
+            startActivity(intent);
+            return true;
+        }
         if (id == R.id.id_plan){
             Intent intent = new Intent(MainActivity.this, PlanActivity.class);
             startActivity(intent);
